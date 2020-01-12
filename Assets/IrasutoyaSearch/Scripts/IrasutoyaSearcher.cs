@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 
 namespace Ho.IrasutoyaSearch
 {
+#if UNITY_EDITOR
     static public class IrasutoyaSearcher
     {
 
@@ -187,5 +188,5 @@ namespace Ho.IrasutoyaSearch
 
 
     }
-
+#endif
 }

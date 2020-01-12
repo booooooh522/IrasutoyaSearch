@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 namespace Ho.IrasutoyaSearch
 {
+#if UNITY_EDITOR
     public class IrasutoyaSearchEditor : EditorWindow
     {
         [MenuItem("IrasutoyaSearch/IrasutoyaSearchWindow")]
@@ -116,4 +117,5 @@ namespace Ho.IrasutoyaSearch
             //EditorGUILayout.EndHorizontal();
         }
     }
+#endif
 }
